@@ -4,8 +4,8 @@
 Writes one funny fortune cookie line for an AI agent (120 characters) to
 /output/entry.txt: a single line, in the voice of a fortune slip, about
 the user who pastes 4,000 lines and writes only "fix it".
-The line is a fixed string, verified against the gate, so two runs always
-produce the same file. Stdlib only, no network.
+The line is a fixed string (120 characters, verified against the gate),
+so two runs always produce the same file. Stdlib only, no network.
 
 Local check (outside the grader's container):
 
